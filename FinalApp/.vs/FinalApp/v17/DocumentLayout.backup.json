@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\views\\user\\selecteditems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\views\\user\\selecteditems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\views\\user\\edititem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\views\\user\\edititem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\views\\user\\customerhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\views\\user\\customerhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\views\\item\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\views\\item\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\views\\user\\seecustomers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\views\\user\\seecustomers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|c:\\users\\ddd\\source\\repos\\finalapp\\finalapp\\finalapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B445B7E2-9153-4581-B83B-FC27ADF9D9D3}|FinalApp\\FinalApp.csproj|solutionrelative:finalapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\User\\EditItem.cshtml",
+              "RelativeDocumentMoniker": "FinalApp\\Views\\User\\EditItem.cshtml",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\User\\EditItem.cshtml",
+              "RelativeToolTip": "FinalApp\\Views\\User\\EditItem.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T14:58:29.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "FinalApp\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T14:29:41.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Program.cs",
+              "RelativeDocumentMoniker": "FinalApp\\Program.cs",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Program.cs",
+              "RelativeToolTip": "FinalApp\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T14:29:30.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\Item\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalApp\\Views\\Item\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\Item\\Index.cshtml",
+              "RelativeToolTip": "FinalApp\\Views\\Item\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T14:29:23.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "FinalApp\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "FinalApp\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAuwHgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T14:24:24.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FinalApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FinalApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAqwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T14:03:27.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "FinalApp\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Models\\Item.cs",
+              "RelativeToolTip": "FinalApp\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:41:37.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Models\\Purchase.cs",
+              "RelativeDocumentMoniker": "FinalApp\\Models\\Purchase.cs",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Models\\Purchase.cs",
+              "RelativeToolTip": "FinalApp\\Models\\Purchase.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:02:11.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SelectedItems.cshtml",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\User\\SelectedItems.cshtml",
+              "RelativeDocumentMoniker": "FinalApp\\Views\\User\\SelectedItems.cshtml",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\User\\SelectedItems.cshtml",
+              "RelativeToolTip": "FinalApp\\Views\\User\\SelectedItems.cshtml",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAuwKoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T06:58:46.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SeeCustomers.cshtml",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\User\\SeeCustomers.cshtml",
+              "RelativeDocumentMoniker": "FinalApp\\Views\\User\\SeeCustomers.cshtml",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\User\\SeeCustomers.cshtml",
+              "RelativeToolTip": "FinalApp\\Views\\User\\SeeCustomers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T06:58:44.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FinalApp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FinalApp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:51:25.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "FinalApp\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Models\\Cart.cs",
+              "RelativeToolTip": "FinalApp\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:39:59.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\User\\CustomerHome.cshtml",
+              "RelativeDocumentMoniker": "FinalApp\\Views\\User\\CustomerHome.cshtml",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Views\\User\\CustomerHome.cshtml",
+              "RelativeToolTip": "FinalApp\\Views\\User\\CustomerHome.cshtml",
+              "ViewState": "AgIAAKoBAAAAAAAAAAAqwLsBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T04:28:56.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FinalApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ddd\\source\\repos\\FinalApp\\FinalApp\\FinalApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FinalApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAQCAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:28:13.423Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

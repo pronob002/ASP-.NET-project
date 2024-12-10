@@ -1,0 +1,215 @@
+﻿@model FinalApp.ViewModels.SelectedItemsViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #007bff;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .item-card {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+            .item-card img {
+                max-width: 150px;
+                max-height: 150px;
+                object-fit: cover;
+                border-radius: 8px;
+                margin-right: 20px;
+            }
+
+            .item-card h5 {
+                margin-top: 0;
+                color: #333;
+            }
+
+            .item-card p {
+                margin: 5px 0;
+            }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+            .input-group .input-group-text {
+                background-color: #007bff;
+                color: #ffffff;
+            }
+
+        .form-control {
+            border-radius: 0.25rem;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            border-color: #28a745;
+            color: #fff;
+            border-radius: 0.25rem;
+            padding: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, border-color 0.3s;
+            text-align: center;
+        }
+
+            .btn-success:hover {
+                background-color: #218838;
+                border-color: #1e7e34;
+            }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #dee2e6;
+            margin: 20px 0;
+        }
+
+        .alert {
+            color: #dc3545;
+            margin: 10px 0;
+        }
+
+        .logout-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #dc3545;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+            .logout-btn:hover {
+                background-color: #c82333;
+            }
+
+        .confirmation-message {
+            color: #28a745;
+            text-align: center;
+            font-size: 1.25rem;
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <form asp-action="Logout" method="get" style="position: relative;">
+            <button type="submit" class="logout-btn">Logout</button>
+        </form>
+
+        <h2>Selected Items</h2>
+
+        @if (Model?.Items != null && Model.Items.Any())
+        {
+            <form id="buyForm" asp-action="BuyItems" method="post">
+                @foreach (var item in Model.Items)
+                {
+                    <div class="item-card">
+                        @if (!string.IsNullOrEmpty(item.ItemImagePath))
+                        {
+                            <img src="@item.ItemImagePath" alt="@item.ItemName" />
+                        }
+                        <div>
+                            <h5>@item.ItemName</h5>
+                            <p><strong>Price:</strong> $@item.Price</p>
+                            <p><strong>Seller ID:</strong> @item.SellerId</p>
+                            <p><strong>Item ID:</strong> @item.ItemId</p>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">Quantity</span>
+                                <input type="number" name="quantities[@item.ItemId]" class="form-control quantity-input" min="1" value="1" required />
+                            </div>
+                            <input type="hidden" name="itemIds" value="@item.ItemId" />
+                            <input type="hidden" name="sellerIds[@item.ItemId]" value="@item.SellerId" />
+                        </div>
+                    </div>
+                    <hr />
+                }
+                <input type="hidden" name="userId" value="@Model.UserId" />
+                <button type="submit" class="btn btn-success">Buy</button>
+            </form>
+        }
+        else
+        {
+            <p>No items selected.</p>
+        }
+
+        <div id="confirmationMessage" class="confirmation-message">Processing...</div>
+        <div id="alertMessage" class="alert" style="display: none;"></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.quantity-input').forEach(function (input) {
+                input.addEventListener('input', function () {
+                    if (this.value < 1) {
+                        this.value = 1;
+                    }
+                });
+            });
+
+            document.getElementById('buyForm').addEventListener('submit', function (event) {
+                let hasItems = false;
+                const alertMessage = document.getElementById('alertMessage');
+                const confirmationMessage = document.getElementById('confirmationMessage');
+
+                document.querySelectorAll('.quantity-input').forEach(function (input) {
+                    if (input.value > 0) {
+                        hasItems = true;
+                    }
+                });
+
+                if (!hasItems) {
+                    alertMessage.innerText = 'Please choose at least one item.';
+                    alertMessage.style.display = 'block';
+                    event.preventDefault();
+                } else {
+                    alertMessage.style.display = 'none';
+                    confirmationMessage.style.display = 'block';
+                    event.preventDefault();
+                    setTimeout(function () {
+                        document.getElementById('buyForm').submit();
+                    }, 2000); // Wait 2 seconds before submitting the form
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>
